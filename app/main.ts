@@ -6,8 +6,8 @@ import { photosComponent } from './photos.component';
 
 @NgModule({
   imports: [ BrowserModule ],
-  declarations: [ AppComponent, photosComponent  ],
-  bootstrap: [ AppComponent ]
+  declarations: [ AppComponent, photosComponent ],
+  bootstrap: [ AppComponent ],
 })
 class AppModule {}
 
