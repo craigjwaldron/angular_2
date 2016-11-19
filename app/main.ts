@@ -1,6 +1,14 @@
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
+import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
+import { AppComponent } from './app.component';
+import { photosComponent } from './photos.component';
 
-import { AppModule } from './app.module';
+@NgModule({
+  imports: [ BrowserModule ],
+  declarations: [ AppComponent, photosComponent  ],
+  bootstrap: [ AppComponent ]
+})
+class AppModule {}
 
-const platform = platformBrowserDynamic();
-platform.bootstrapModule(AppModule);
+platformBrowserDynamic().bootstrapModule(AppModule);
