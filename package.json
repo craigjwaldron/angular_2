@@ -28,6 +28,8 @@
     "reflect-metadata": "^0.1.8",
     "rxjs": "5.0.0-beta.12",
     "systemjs": "0.19.39",
+    "unsplash-api": "^1.2.0",
+    "unsplash-js": "^4.2.0",
     "zone.js": "^0.6.25"
   },
   "devDependencies": {
